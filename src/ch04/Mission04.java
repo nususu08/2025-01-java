@@ -1,7 +1,5 @@
 package ch04;
 
-import java.util.Scanner;
-
 public class Mission04 {
     public static void main(String[] args) {
         int score = (int) (Math.random() * 201.0); // 0 ~ 200 사이의 랜덤값
@@ -26,5 +24,23 @@ public class Mission04 {
         //만약 score 값이 100점을 넘기면 "측정 불가"출력
 
         System.out.println("-- 끝 --");
+    }
+
+    public static class Mission05 {
+        public static void main(String [] args) {
+            int starCount = (int)(Math.random() * 6) + 2; //(1) 2~7 사이 랜덤값
+            System.out.printf("starCount: %d\n", starCount);
+
+            //starCount = 3;
+            //***
+
+            //starCount = 7;
+            //*******
+
+            //starCount = 2;
+            //**
+            for (int i = 0; i < starCount; i++)
+                System.out.print("*");
+        }
     }
 }

@@ -1,4 +1,4 @@
-package cho4.sec04;
+package ch04.sec04;
 
 public class ForStudy {
     public static void main (String[] args) {
