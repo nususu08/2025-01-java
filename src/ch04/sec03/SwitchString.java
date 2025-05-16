@@ -6,6 +6,7 @@ public class SwitchString {
     public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("성별을 입력해 주세요. (w/m) > ");
+
         String gender = scanner.next();
         System.out.println("gender: " + gender);
         switch (gender) {
@@ -18,6 +19,6 @@ public class SwitchString {
             default :
                 System.out.println("성별을 입력해주세요.");
         }
-        // 수정용
+        scanner.close();
     }
 }
