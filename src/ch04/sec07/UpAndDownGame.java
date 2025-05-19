@@ -6,7 +6,6 @@ public class UpAndDownGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int answer = (int)(Math.random() * 100.0) + 1; // 1 ~ 100
-        System.out.println("answer: " + answer);
         int a = 0;
 
         while(true){
