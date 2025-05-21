@@ -17,7 +17,7 @@ public class MultiArrayStudy02 {
             for(int k = 0; k < arr[i].length; k++) {
                 System.out.print (arr[i][k]);
             }
-            System.out.println();
+            System.out.println("굳");
         }
     }
 }
